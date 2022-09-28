@@ -134,7 +134,7 @@ print(my_bool)
 word1 = "success"
 word2 = "technology"
 sentence = " 'When something is important enough, you do it even if the odds are against you' - Elon Musk"
-my_bool =('word1')
+my_bool =('word1' in text) and ('word2' in text)
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
@@ -149,6 +149,19 @@ my_bool =('word1')
 
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
+# lesson
+# if 5 == 2:
+#   print("if is correct")
+# else:
+#   print("it is not correct")
+
+pet = 'dog'
+if pet == 'cat':
+  print(" you have a cat")
+elif pet == "dog":
+  print("you have a dog")
+elif pet == 'fish':
+  print ("you have a fish")
 
 # "num1 is greater than num2"
 
