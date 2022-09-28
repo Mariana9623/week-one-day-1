@@ -106,13 +106,17 @@ print(my_bool)
 num1 = 36
 num2 = 72/2
 num3 = 48
-my_bool = num3 > num1 num2
+my_bool = num3 > num1 > num2
 print(my_bool)
 
 
 # Logical Operators Practice #2
 # Create three variables (num1, num2, and num3):
-
+num1 = 36
+num2 = 72/2
+num3 = 48
+my_bool = num3 > num1 or num1 > num2
+print(my_bool)
 # Inside num1, store the value 36
 
 # Inside num2, stores the result of the operation 72/2
@@ -127,9 +131,10 @@ print(my_bool)
 # Check if the words:
 
 # word1 = "success", and
-
-# word2 = "technology"
-
+word1 = "success"
+word2 = "technology"
+sentence = " 'When something is important enough, you do it even if the odds are against you' - Elon Musk"
+my_bool =('word1')
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
