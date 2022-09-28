@@ -14,14 +14,18 @@
 
 seconds = [1.23, 1.45, 1.02]
 current = 1.11
-
+seconds.append (current)
+print(seconds)
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
-
+seconds.remove(1.45)
+print(seconds)
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
+seconds.remove (1.45)
+seconds.remove(1.02)
+seconds.remove(1.11)
+print(seconds)
 
 ################################comparison operators#########################
 #remember....
@@ -32,13 +36,32 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # == equal
 # != different or not equal to
 
+#lesson
+my_bool = 10 == 25
+print(my_bool)
+my_bool = 5 + 5 ==10
+print(my_bool)
 
+my_bool = 'white' == 'White.lower'
+print(my_bool)
 
+my_bool = 100.0 < 99
+print(my_bool)
+my_bool = 4 < 5 and 5>=6
+print(my_bool)
+
+text = "This sentence is short"
+# my_bool = ('sentence' in text) and ('short' in text)
+my_bool = ('sentence' in text) or ('python' in text)
+print(my_bool)
 
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
-
+import math
+num1 = math.sqrt (5)
+num2 = 5
+my_bool = num1 = num2
+print(my_bool)
 
 
 # Comparison Operators Practice  2:
@@ -57,7 +80,10 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
-
+num1 = 64 * 3
+num2 = 24 * 8
+my_bool = num1 ==num2
+print(my_bool)
 
 
 
@@ -77,7 +103,11 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
 
-
+num1 = 36
+num2 = 72/2
+num3 = 48
+my_bool = num3 > num1 num2
+print(my_bool)
 
 
 # Logical Operators Practice #2
